@@ -33,7 +33,7 @@ public class UUIDType extends AbstractSingleColumnStandardBasicType<UUID> {
         public static final ObjectWithWrapSqlTypeDescriptor INSTANCE = new ObjectWithWrapSqlTypeDescriptor();
 
         public int getSqlType() {
-            return Types.OTHER;
+            return Types.VARCHAR;
         }
 
         @Override
